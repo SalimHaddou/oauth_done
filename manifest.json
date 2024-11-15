@@ -1,0 +1,16 @@
+{
+    "name": "oauth_done",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+    {
+        "matches": [
+            "https://vpn.f5ps.site/public/oauth_done.html",
+            "https://foo.bar/public/oauth_done.html"
+        ],
+        "js": ["content.js"]
+    }],
+    "background": {
+        "service_worker": "service_worker.js"
+    }
+}
