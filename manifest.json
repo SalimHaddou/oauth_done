@@ -5,8 +5,7 @@
     "content_scripts": [
     {
         "matches": [
-            "https://vpn.f5ps.site/public/oauth_done.html",
-            "https://foo.bar/public/oauth_done.html"
+            "https://*.vpn.f5.com/public/oauth_done.html"
         ],
         "js": ["content.js"]
     }],
